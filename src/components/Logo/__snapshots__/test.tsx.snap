@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render component default 1`] = `
+.c0 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-family: 'Pacifico';
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  JR
+</h2>
+`;

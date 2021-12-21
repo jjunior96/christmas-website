@@ -1,13 +1,13 @@
 import * as S from './styles';
 
-interface MainProps {
+interface ContainerProps {
   children: React.ReactNode;
 }
 
-const Main = ({ children }: MainProps) => (
+const Container = ({ children }: ContainerProps) => (
   <S.Container>
     <S.Content>{children}</S.Content>
   </S.Container>
 );
 
-export default Main;
+export default Container;

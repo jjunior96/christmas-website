@@ -1,9 +1,9 @@
-import Dashboard from 'templates/Dashboard';
+import Home from 'templates/Home';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <Dashboard />
+      <Home />
     </>
   );
 }
