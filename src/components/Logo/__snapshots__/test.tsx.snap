@@ -3,9 +3,10 @@
 exports[`<Logo /> should render component default 1`] = `
 .c0 {
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 4rem;
   font-weight: 600;
-  font-family: 'Pacifico';
+  font-family: 'Pacifico',cursive;
+  line-height: 1;
 }
 
 <h2
