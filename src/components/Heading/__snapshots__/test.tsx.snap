@@ -4,7 +4,11 @@ exports[`<Heading /> should render the heading default 1`] = `
 .c0 {
   color: #fff;
   font-weight: 600;
-  font-size: 6.4rem;
+  -webkit-letter-spacing: 4px;
+  -moz-letter-spacing: 4px;
+  -ms-letter-spacing: 4px;
+  letter-spacing: 4px;
+  font-size: 10.4rem;
 }
 
 <h1
