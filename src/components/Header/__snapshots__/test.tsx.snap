@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the heading 1`] = `
+.c2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'Pacifico',cursive;
+  line-height: 1;
+}
+
+.c0 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 130rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 3.2rem 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #fff;
+  -webkit-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out;
+}
+
+.c4 + li {
+  margin-left: 3.2rem;
+}
+
+.c4:hover {
+  color: #5855E9;
+}
+
+<header
+  class="c0"
+  role="menubar"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2"
+      color="white"
+    >
+      JR
+    </h2>
+    <ul
+      class="c3"
+    >
+      <li
+        class="c4"
+      >
+        <a
+          href="/"
+        >
+          Introduction
+        </a>
+      </li>
+      <li
+        class="c4"
+      >
+        <a
+          href="/"
+        >
+          Customization
+        </a>
+      </li>
+      <li
+        class="c4"
+      >
+        <a
+          href="/"
+        >
+          Look inside
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+`;
