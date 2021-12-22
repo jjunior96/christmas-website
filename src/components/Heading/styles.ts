@@ -21,6 +21,7 @@ export const Container = styled.h1<ContainerProps>`
     color: ${theme.colors[color!]};
 
     font-weight: ${theme.font.bold};
+    letter-spacing: 4px;
 
     ${!!size && containerModifiers[size](theme)}
   `}
