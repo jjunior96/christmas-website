@@ -1,16 +1,22 @@
 import styled, { css } from 'styled-components';
 
 export const Container = styled.header`
-  width: 100%;
+  ${({ theme }) => css`
+    width: 100%;
 
-  position: fixed;
-  top: 0;
+    height: ${theme.grid.header};
+
+    position: fixed;
+    top: 0;
+  `}
 `;
 
 export const Content = styled.div`
   ${({ theme }) => css`
     width: 100%;
     max-width: ${theme.grid.container};
+
+    height: 100%;
 
     display: flex;
     align-items: center;
