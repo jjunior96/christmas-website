@@ -44,3 +44,23 @@ export const Content = styled.div`
     }
   `}
 `;
+
+export const InfoContainer = styled.div``;
+
+export const Description = styled.p`
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.xsmall};
+
+    color: ${theme.colors.white};
+
+    max-width: 50rem;
+
+    line-height: 1.5;
+
+    margin-top: ${theme.spacings.xsmall};
+
+    span {
+      font-weight: ${theme.font.bold};
+    }
+  `}
+`;
