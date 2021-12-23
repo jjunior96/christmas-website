@@ -9,10 +9,20 @@ const Home = () => {
       <S.ImageContainer>
         <img src="/img/bg.jpeg" alt="" />
       </S.ImageContainer>
+
       <S.Container>
         <Header />
+
         <S.Content>
-          <Heading size="large">Happy Christmas</Heading>
+          <S.InfoContainer>
+            <Heading size="large">Happy Christmas</Heading>
+
+            <S.Description>
+              The best of all gifts around any Christmas tree: the presence of a
+              happy family all wrapped up in each other.{' '}
+              <span>-Burton Hillis</span>
+            </S.Description>
+          </S.InfoContainer>
         </S.Content>
       </S.Container>
     </>
