@@ -26,7 +26,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^1.0.0",
     "framer-motion": "4.1.17",
     "next": "^12.2.3",
     "next-pwa": "^5.4.4",
